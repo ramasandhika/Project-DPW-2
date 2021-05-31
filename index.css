@@ -1,0 +1,52 @@
+body{
+    background-image: url(aset/bg.JPEG);
+    color: white;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bold;
+}
+.container{
+    width: 500px;
+    transform: translateY(5%);
+    background-color: rgb(176 224 230);
+    padding: 10px;
+    color: rgb(47, 79, 79);
+}
+/*untuk style pada kata form inputan*/
+.container h2{
+    text-align: left;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid rgb(205, 92, 92);
+    font-family: arial;
+    font-weight: bold;
+}
+.logo{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* button daftar */
+.daftar{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(105 105 105)
+}
+.daftar:hover{
+    border: 2px solid #778899;
+}
+/*untuk tampilan pada form inputan ketika user tidak menginputkan data maka keluar peringatan*/
+.form-group p {
+    color: red;
+    font-size: 12px;
+}
+/* responsive */
+@media screen and (max-width: 576px){
+    .container{
+        width: 400px;
+    }
+}
