@@ -1,1 +1,1 @@
-Pentimpanan gambar
+Penyimpanan gambar
