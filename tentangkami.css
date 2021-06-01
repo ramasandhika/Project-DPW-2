@@ -49,15 +49,6 @@ body{
     width: 200px;
 }
 
-/* footer */
-footer {
-    transform: translateY(20%);
-    background: white;
-    padding-left: 20px;
-    bottom: 0px;
-    width: 100%;
-}
-
 .info h2::after {
     text-transform: uppercase;
     content: '';
