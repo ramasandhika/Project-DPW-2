@@ -1,0 +1,72 @@
+body{
+    background-image: url(aset/bg.JPEG);
+    color: white;
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: bold;
+}
+.container{
+    width: 500px;
+    transform: translateY(5%);
+    background-color: rgb(176 224 230);
+    padding: 10px;
+    color: rgb(47, 79, 79);
+    height: auto;
+    transform: translateY(5%);
+    padding: 10px;
+    color: rgb(47, 79, 79);
+    margin-top: 100px;
+}
+/*untuk style pada kata form pembayaran*/
+.container h2{
+    text-align: left;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid rgb(205, 92, 92);
+    font-family: arial;
+    font-weight: bold;
+}
+.logo{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.next{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(105 105 105)
+    
+
+}
+.next:hover{
+    border: 2px solid #778899;
+}
+/* navbar */
+.navbar {
+    background-color: rgb(176 224 230);
+    font-family: arial;
+    font-size: 18px;
+}
+/* responsive */
+@media screen and (max-width: 576px){
+    .container{
+        width: 400px;
+    }
+}
+/*Desktop*/
+@media screen and (min-width: 992px) {
+    .navbar {
+        height: 100px;
+    }
+
+/*Untuk bagian kata welcome,homepag,pembayaran dan tentang kami*/
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+        justify-content: center;
+        font-weight: bold;
+    }
