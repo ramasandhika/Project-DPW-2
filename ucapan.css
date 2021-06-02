@@ -4,7 +4,7 @@ body{
 }
 /*untuk kotak ucapan*/
 .container{
-	background-color: rgb(176 224 230);
+	background-color: red;
 	font-family: brush script mt;
 	width: 500px;
 	height: auto;
